@@ -2,7 +2,7 @@
  "versao": 4,
  "nome": "4",
  "notas": "página de download e aviso de versão",
- "apk": "https://github.com/Tiutei589/moeda-arcade-updates/releases/download/app/MoedaArcade.apk",
+ "apk": "https://tiutei589.github.io/moeda-arcade-updates/",
  "obrigatoria": false,
  "arquivos": [
   "script.js",
