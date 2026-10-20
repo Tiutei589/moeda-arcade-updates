@@ -1,7 +1,7 @@
 {
- "versao": 5,
- "nome": "5",
- "notas": "teste da atualização dentro do jogo",
+ "versao": 6,
+ "nome": "6",
+ "notas": "versão no canto e 3 músicas novas",
  "apk": "https://tiutei589.github.io/moeda-arcade-updates/",
  "apkDireto": "https://github.com/Tiutei589/moeda-arcade-updates/releases/download/app/MoedaArcade.apk",
  "obrigatoria": false,
@@ -56,6 +56,8 @@
   "imagens/Bordas/bordacup.png",
   "vendor/three.min.js",
   "vendor/GLTFLoader.js",
+  "M%C3%BAsicas/toffe.mp3",
+  "M%C3%BAsicas/chocolandia2.mp3",
   "M%C3%BAsicas/Efeito%20Sonoro/pop2.mp3",
   "M%C3%BAsicas/Efeito%20Sonoro/pop.mp3"
  ]
