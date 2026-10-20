@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Moeda Arcade — Cupcake Edition</title>
+<meta name="description" content="Baixe o Moeda Arcade para Android.">
+<meta name="theme-color" content="#1a1030">
+<style>
+:root{--bg:#140a1f;--card:#2a120c;--rosa:#ff8fc8;--rosa2:#ffd6ec;--ouro:#fff3a8;--txt:#ffe9f4;--mut:#e8b4cf}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px 16px;background:radial-gradient(circle at 50% 0,#3a1b4d,var(--bg) 60%);color:var(--txt);font:500 16px/1.4 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.c{width:min(100%,420px);padding:26px 22px;border-radius:24px;text-align:center;background:linear-gradient(160deg,#5e2e1c,var(--card));border:2px solid var(--rosa);box-shadow:0 0 28px rgba(255,130,200,.4),0 6px 0 #1a0a05}
+img{width:112px;height:112px;border-radius:26px;box-shadow:0 0 18px rgba(255,130,200,.5)}
+h1{margin:14px 0 2px;font-size:28px;color:var(--ouro);text-shadow:0 2px 0 #3a1b10}
+.s{margin:0;color:var(--mut)}
+.b{display:block;margin:22px 0 6px;padding:16px;border-radius:16px;border:2px solid #fff0f8;background:linear-gradient(180deg,var(--rosa2),#ff9fd0);box-shadow:0 5px 0 #8a2f5f;color:#3a1b10;font-weight:800;font-size:20px;text-decoration:none}
+.b:active{transform:translateY(3px);box-shadow:0 2px 0 #8a2f5f}
+.v{font-size:13px;color:var(--mut);min-height:18px}
+ol{text-align:left;margin:20px 0 0;padding:14px 14px 14px 34px;border-radius:14px;background:#1f0d08;border:1px solid #7a3a2a;font-size:14px;color:var(--txt)}
+li{margin:4px 0}
+.f{margin-top:16px;font-size:12px;color:var(--mut)}
+</style>
+</head>
+<body>
+<main class="c">
+  <img src="icon-192.png" alt="" onerror="this.style.display='none'">
+  <h1>Moeda Arcade</h1>
+  <p class="s">Cupcake Edition · para Android</p>
+  <a class="b" id="dl" href="https://github.com/Tiutei589/moeda-arcade-updates/releases/download/app/MoedaArcade.apk">BAIXAR O JOGO</a>
+  <div class="v" id="v"></div>
+  <ol>
+    <li>Toque em <b>Baixar o jogo</b> e espere terminar (cerca de 120 MB).</li>
+    <li>Abra o arquivo baixado.</li>
+    <li>Se o Android pedir, permita <b>instalar apps desta fonte</b>.</li>
+    <li>Toque em <b>Instalar</b> e depois em <b>Abrir</b>.</li>
+  </ol>
+  <p class="f">O Android mostra esse aviso para qualquer app fora da Play Store.</p>
+</main>
+<script>
+fetch('versao.json?t=' + Date.now(), { cache: 'no-store' }).then(r => r.json()).then(j => {
+  document.getElementById('v').textContent = 'Versão ' + (j.nome || j.versao) + (j.notas ? ' · ' + j.notas : '');
+}).catch(() => {});
+</script>
+</body>
+</html>
