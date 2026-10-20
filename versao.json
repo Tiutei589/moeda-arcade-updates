@@ -1,7 +1,7 @@
 {
- "versao": 3,
- "nome": "3",
- "notas": "atualização dentro do jogo",
+ "versao": 5,
+ "nome": "5",
+ "notas": "teste da atualização dentro do jogo",
  "apk": "https://tiutei589.github.io/moeda-arcade-updates/",
  "apkDireto": "https://github.com/Tiutei589/moeda-arcade-updates/releases/download/app/MoedaArcade.apk",
  "obrigatoria": false,
