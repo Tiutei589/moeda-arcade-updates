@@ -1,13 +1,14 @@
 {
- "versao": 3,
- "nome": "3",
- "notas": "aviso de versão e correção do cupcake",
- "apk": "https://github.com/Tiutei589/moeda-arcade/releases/latest/download/MoedaArcade.apk",
+ "versao": 4,
+ "nome": "4",
+ "notas": "página de download e aviso de versão",
+ "apk": "https://github.com/Tiutei589/moeda-arcade-updates/releases/download/app/MoedaArcade.apk",
  "obrigatoria": false,
  "arquivos": [
   "script.js",
   "moedas.html",
   "moeda.keystore",
+  "index_pagina.html",
   "icon-192.png",
   "icon-512.png",
   "manifest.json",
