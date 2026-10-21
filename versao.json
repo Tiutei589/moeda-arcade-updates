@@ -1,7 +1,7 @@
 {
- "versao": 8,
- "nome": "8",
- "notas": "ícone novo do Téo",
+ "versao": 9,
+ "nome": "9",
+ "notas": "teste de atualização",
  "apk": "https://tiutei589.github.io/moeda-arcade-updates/",
  "apkDireto": "https://github.com/Tiutei589/moeda-arcade-updates/releases/download/app/MoedaArcade.apk",
  "obrigatoria": false,
