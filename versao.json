@@ -1,7 +1,7 @@
 {
- "versao": 10,
- "nome": "10",
- "notas": "sistema de patch + ícone novo",
+ "versao": 11,
+ "nome": "11",
+ "notas": "ícone com enquadramento novo",
  "apk": "https://tiutei589.github.io/moeda-arcade-updates/",
  "apkDireto": "https://github.com/Tiutei589/moeda-arcade-updates/releases/download/app/MoedaArcade.apk",
  "obrigatoria": false,
@@ -76,7 +76,7 @@
   "M%C3%BAsicas/Efeito%20Sonoro/pop2.mp3",
   "M%C3%BAsicas/Efeito%20Sonoro/pop.mp3"
  ],
- "apkSha": "001936db30bf6e05c3a703db9bb1b8dcc7eafddd",
- "apkBuild": 34,
+ "apkSha": "2168245604021e36cf2b32d80a745de45b9f4175",
+ "apkBuild": 35,
  "patch": null
 }
