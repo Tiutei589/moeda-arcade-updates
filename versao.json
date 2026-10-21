@@ -1,7 +1,7 @@
 {
- "versao": 9,
- "nome": "9",
- "notas": "teste de atualização",
+ "versao": 10,
+ "nome": "10",
+ "notas": "sistema de patch + ícone novo",
  "apk": "https://tiutei589.github.io/moeda-arcade-updates/",
  "apkDireto": "https://github.com/Tiutei589/moeda-arcade-updates/releases/download/app/MoedaArcade.apk",
  "obrigatoria": false,
@@ -10,11 +10,13 @@
   "moedas.html",
   "icon-192.png",
   "moeda.keystore",
-  "apk.yml",
   "index_pagina.html",
+  "apk.yml",
   "icon-512.png",
+  "patch-sw.js",
   "manifest.json",
   "index.html",
+  "patch.js",
   "imagens/paredes/lv1.png",
   "imagens/paredes/cup3.png",
   "imagens/paredes/Wallpaper1.png",
@@ -43,9 +45,9 @@
   "imagens/icones/brigadeiro.png",
   "imagens/icones/cake3.png",
   "imagens/icones/cake4.png",
+  "imagens/icones/icont.png",
   "imagens/icones/balao2.png",
   "imagens/icones/skill.png",
-  "imagens/icones/icont.png",
   "imagens/icones/album1.jpg",
   "imagens/icones/skill1.2.png",
   "imagens/icones/bolachas.jpg",
@@ -73,5 +75,8 @@
   "M%C3%BAsicas/chocolandia2.mp3",
   "M%C3%BAsicas/Efeito%20Sonoro/pop2.mp3",
   "M%C3%BAsicas/Efeito%20Sonoro/pop.mp3"
- ]
+ ],
+ "apkSha": "001936db30bf6e05c3a703db9bb1b8dcc7eafddd",
+ "apkBuild": 34,
+ "patch": null
 }
