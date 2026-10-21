@@ -1,16 +1,18 @@
 {
- "versao": 7,
- "nome": "7",
- "notas": "ícones novos, convite do Téo e castelo do Zeca",
+ "versao": 8,
+ "nome": "8",
+ "notas": "ícone novo do Téo",
  "apk": "https://tiutei589.github.io/moeda-arcade-updates/",
  "apkDireto": "https://github.com/Tiutei589/moeda-arcade-updates/releases/download/app/MoedaArcade.apk",
  "obrigatoria": false,
  "arquivos": [
   "script.js",
   "moedas.html",
+  "icon-192.png",
   "moeda.keystore",
   "apk.yml",
   "index_pagina.html",
+  "icon-512.png",
   "manifest.json",
   "index.html",
   "imagens/paredes/lv1.png",
@@ -43,6 +45,7 @@
   "imagens/icones/cake4.png",
   "imagens/icones/balao2.png",
   "imagens/icones/skill.png",
+  "imagens/icones/icont.png",
   "imagens/icones/album1.jpg",
   "imagens/icones/skill1.2.png",
   "imagens/icones/bolachas.jpg",
@@ -69,8 +72,6 @@
   "M%C3%BAsicas/toffe.mp3",
   "M%C3%BAsicas/chocolandia2.mp3",
   "M%C3%BAsicas/Efeito%20Sonoro/pop2.mp3",
-  "M%C3%BAsicas/Efeito%20Sonoro/pop.mp3",
-  "icon-192.png",
-  "icon-512.png"
+  "M%C3%BAsicas/Efeito%20Sonoro/pop.mp3"
  ]
 }
